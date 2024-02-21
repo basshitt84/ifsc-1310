@@ -1,0 +1,36 @@
+/* ---- CSS Demo ---- */
+
+/*  ---------------Box Sizing-----------------  */
+
+
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  /*  --------------- Global Styles -----------------  */
+
+  
+  
+  body{
+    font-family: "Poppins", sans-serif;
+    
+    
+  }
+  header.primary{
+    background:#C9F5EA;
+    
+  }
+  body {background-color: #8FBCB1;}
+  
+  body {
+    color: #2C6758;}
+  
+  a:link {color: #A08767}
+  

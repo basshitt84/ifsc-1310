@@ -1,14 +1,29 @@
 header.primary { 
-    background-image: url("../img/launch.jpg");
-    background-repeat: repeat;
-    opacity: 0.5;
+    /* background-image: url("../dragon_2_hover_test.jpg");
+    background-repeat: repeat; */
     max-width: 100%;
-
+  position: relative;
+  overflow: hidden;
   padding-top: 75px;
   padding-right: 75px;
   padding-bottom: 75px;
   padding-left: 75px;
   text-align: center;
+}
+
+header.primary .bg {
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: 100%;
+
+}
+
+header.primary .hgroup {
+  position: relative;
+  top: 0;
 }
 
     header.primary h1 {
@@ -23,23 +38,23 @@ header.primary h2 {
     margin: 0;
 }
 
-header.primary nav {
+.tabs-container nav {
     max-width: 900px;
     margin: 20px auto;
   }
   
-  header.primary ul {
+  .tabs-container nav ul {
     padding: 10px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
   
-  header.primary ul li {
+  .tabs-container ul li {
     list-style-type: none;
   }
   
-  header.primary nav a {
+  .tabs-container nav a {
     color: #fff;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.4);
@@ -49,9 +64,11 @@ header.primary nav {
     transition: 0.4s;
   }
   
-  header.primary nav a:hover {
+  .tabs-container nav a:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
+
+  .configurations.h1
 
 
 

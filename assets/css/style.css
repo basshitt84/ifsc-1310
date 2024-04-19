@@ -1,25 +1,11 @@
-body {
-
-background-color: blanchedalmond;
+.primary{
+   text-align: center;
+   background-color: bisque;
 }
+ul li{
+    list-style-type: none;
+}
+body{
+    background-image: ./;
 
- 
-
- 
-   
-
-
-   
-
-
-
-
-
-
-
-    
-
-
-
-
-
+}

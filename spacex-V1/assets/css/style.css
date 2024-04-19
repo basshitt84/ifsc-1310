@@ -1,0 +1,185 @@
+html {
+    box-sizing: border-box;
+    
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  /*---- Utility Styles ----*/
+  .container{
+    width: 80vw;
+    margin: 40px auto;
+    max-width: 900px;}
+
+  
+  /*---- Responsive Images ----*/
+  
+  img{
+    max-width: 100%;
+      height: auto;
+  }
+  
+  /*---- Global Styles ----*/
+  
+  body{
+  
+    font-family: "roboto", sans-seref;
+    margin: 0;
+
+
+    
+    
+  }
+  
+  header.primary{
+
+    text-align: center;
+    padding: 6em 2em;
+    position: relative;
+    background-color: #181c1f;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  header.primary::before {
+    content:"";
+    background-image: url(../img/dragoncrew.8k.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .48;
+  }
+  
+  header.primary h1{
+    font-size: 3.2rem;
+    margin: 20px 0;
+    position: relative;
+  }
+  header.primary h1 a {
+    /* color:#ffffff; */
+    background-image:url(../img/SpaceX-Logo.png);
+    background-size:contain;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow:hidden;
+    display: block;
+    width: 459px;
+    height: 70px;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    /* text-indent:100%; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+  }
+  header.primary h2 {
+    font-family: "roboto";
+      font-size: 2em;
+    margin: 20px auto 40px;
+    position: relative;
+    
+  }
+  header.primary nav {
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  
+  header.primary ul {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  header.primary ul li {
+    list-style-type: none;
+   
+
+  }
+  
+  header.primary nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 7.5px 10px;
+    border-radius: 20px 50px;
+    border: 3px solid #c0c0c0;
+    transition: 0.4s;
+    position: relative;
+  }
+  
+  header.primary nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  #content {
+  padding: 4em 0;
+}
+#content h2{
+  font-family: "roboto";
+  font-size: 2.2em;
+  color: #339498;
+  text-align: center;
+  
+}
+
+#colophon h6 {
+  text-align:center;
+ 
+  background-color: #339498;
+margin: 0 auto;
+  padding: 6em 2em;
+  width: 100%;
+  display:inline-block
+
+
+
+}
+
+section table{
+   border-spacing: 2px;
+   text-indent: initial;
+   border-collapse: separate;
+   font-size: 0.8em;
+   font-family: 'Source Code Pro', monospace;
+   border: 1px solid #17202A;
+   margin: auto;
+}
+
+section table td {
+  border-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #17202A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- hero ---------*/
+
+#slideshow{
+  padding:4em 0;
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  

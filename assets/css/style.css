@@ -1,11 +1,13 @@
 .primary{
-   text-align: center;
+
+   text-align:center;
    background-color: bisque;
+  
 }
 ul li{
     list-style-type: none;
+    position: relative;
 }
-body{
-    background-image: ./;
+.hgroup{
 
 }
